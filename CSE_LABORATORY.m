@@ -33,7 +33,9 @@ syms s
 IIC = ilaplace (((7)/(s^2+6)));
 pretty  (IIC)
 
-%% Assignment #2
+%% Assignment 2
+
+%% Assignment 2 #1
 syms s 
 A= laplace ((1)/(s*(s^2+2*s+2)));
 pretty (A)

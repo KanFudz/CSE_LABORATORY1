@@ -56,8 +56,10 @@ pretty (B)
 
 %% #3
 syms s 
-C= ilaplace ((s^4+2*s^3+3*s^2+4*s+5)/s*(s+1));
-pretty (C)
+C=  (s^4 + 2*s^3 + 3*s^2 + 4*s + 5)/(s^2 + s);
+c= ilaplace (C)
+pretty (c)
+
 
 
 %% LABORATORY 1 CSE (Version 2)

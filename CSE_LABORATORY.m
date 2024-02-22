@@ -44,12 +44,14 @@ pretty  (IIc)
 
 %%  #1
 syms s 
-A= ilaplace ((1)/(s*(s^2+2*s+2)));
-pretty (A)
+A= ((1)/(s*(s^2+2*s+2)));
+a= ilaplace (A)
+pretty (a)
 
 %%  #2
 syms s 
-B= ilaplace ((5*(s+2))/(s^2*(s+1)*(s+3)));
+B= ((5*(s+2))/(s^2*(s+1)*(s+3)));
+b= ilaplace (B)
 pretty (B)
 
 %% #3

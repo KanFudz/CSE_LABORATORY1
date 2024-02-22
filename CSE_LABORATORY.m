@@ -37,8 +37,13 @@ pretty  (IIC)
 
 %% Assignment 2 #1
 syms s 
-A= laplace ((1)/(s*(s^2+2*s+2)));
+A= ilaplace ((1)/(s*(s^2+2*s+2)));
 pretty (A)
+
+%% Assignment 2 #2
+syms s 
+B= ilaplace ();
+pretty (B)
 
 
 

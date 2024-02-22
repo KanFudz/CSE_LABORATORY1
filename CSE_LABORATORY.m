@@ -1,4 +1,5 @@
 % LABORATORY 1 CSE
+%Legends: I=test 1, II=test 2, A=#1, B=#2, C=#3
 %% Assignment #1
 %% I.Solve for the Laplace Transform of the following:
 

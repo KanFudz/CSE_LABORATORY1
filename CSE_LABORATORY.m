@@ -35,12 +35,12 @@ pretty  (IIC)
 
 %% Assignment 2
 
-%% Assignment 2 #1
+%%  #1
 syms s 
 A= ilaplace ((1)/(s*(s^2+2*s+2)));
 pretty (A)
 
-%% Assignment 2 #2
+%%  #2
 syms s 
 B= ilaplace ((5*(s+2))/(s^2*(s+1)*(s+3)));
 pretty (B)

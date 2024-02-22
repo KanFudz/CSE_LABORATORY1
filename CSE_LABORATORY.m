@@ -52,7 +52,7 @@ pretty (a)
 syms s 
 B= ((5*(s+2))/(s^2*(s+1)*(s+3)));
 b= ilaplace (B)
-pretty (B)
+pretty (b)
 
 %% #3
 syms s 

@@ -1,4 +1,5 @@
 % LABORATORY 1 CSE
+%% Assignment #1
 %% I.Solve for the Laplace Transform of the following:
 
 %% I. #1 
@@ -16,6 +17,7 @@ syms t;
 IC = laplace ((t+1)*(t+2));
 pretty  (IC)
 
+%% II. Solve for the Inverse Laplace Transform of the following:
 %% II. #1
 syms s
 IIA = ilaplace ((8-(3*s)+s^2)/(s^3));
@@ -30,6 +32,11 @@ pretty  (IIB)
 syms s
 IIC = ilaplace (((7)/(s^2+6)));
 pretty  (IIC)
+
+%% Assignment #2
+
+
+
 
 
 

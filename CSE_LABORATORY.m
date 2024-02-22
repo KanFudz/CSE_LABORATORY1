@@ -37,7 +37,8 @@ pretty  (IIb)
 %% II. #3
 syms s
 IIC = (((7)/(s^2+6)));
-pretty  (IIC)
+IIc = ilaplace (IIC)
+pretty  (IIc)
 
 %% Assignment 2
 

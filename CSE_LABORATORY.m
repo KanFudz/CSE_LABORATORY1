@@ -42,7 +42,7 @@ pretty (A)
 
 %% Assignment 2 #2
 syms s 
-B= ilaplace ();
+B= ilaplace ((5*(s+2))/(s^2*(s+1)*(s+3)));
 pretty (B)
 
 

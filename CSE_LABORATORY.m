@@ -28,8 +28,8 @@ pretty  (IIB)
 
 %% II. #3
 syms s
-IIB = ilaplace (((5)/(s-2))-((4*s)/(s^2+9)));
-pretty  (IIB)
+IIC = ilaplace ();
+pretty  (IIC)
 
 
 

@@ -1,33 +1,38 @@
 % LABORATORY 1 CSE (Version 1)
-%Legends: I=test 1, II=test 2, A=#1, B=#2, C=#3
+%Legends: I=test 1, II=test 2, A/a=#1, B/b=#2, C/c=#3
 %% Assignment #1
 %% I.Solve for the Laplace Transform of the following:
 
 %% I. #1 
 syms t;
-IA =laplace (3-(exp(-3*t))+(5*sin(2*t)));
+Ia = (3-(exp(-3*t))+(5*sin(2*t)))
+IA = laplace (Ia)
 pretty (IA)
 
 %% I. #2
 syms t;
-IB = laplace (3+(12*t)+(42*t^3)-(3*exp(2*t)));
+Ib = (3+(12*t)+(42*t^3)-(3*exp(2*t)));
+IB = laplace (Ib)
 pretty  (IB)
 
 %% I. #3
 syms t;
-IC = laplace ((t+1)*(t+2));
+Ic =  ((t+1)*(t+2));
+IC = laplace (Ic)
 pretty  (IC)
 
 %% II. Solve for the Inverse Laplace Transform of the following:
 %% II. #1
 syms s
-IIA = ilaplace ((8-(3*s)+s^2)/(s^3));
-pretty  (IIA)
+IIA = ((8-(3*s)+s^2)/(s^3));
+IIa = ilaplace (IIA) 
+pretty  (IIa)
 
 %% II. #2
 syms s
-IIB = ilaplace (((5)/(s-2))-((4*s)/(s^2+9)));
-pretty  (IIB)
+IIB = (((5)/(s-2))-((4*s)/(s^2+9)));
+IIb = ilaplace (IIB)
+pretty  (IIb)
 
 %% II. #3
 syms s

@@ -12,4 +12,4 @@ Equation 2
 ![Assignment 2 (Equation 2)](https://github.com/KanFudz/CSE_LABORATORY1/assets/157684612/12a55ea3-96b7-45f0-a4b1-689f1300bada)
 
 Equation 3
-![Assignment 2 (Equation 3)](https://github.com/KanFudz/CSE_LABORATORY1/assets/157684612/1311f84b-1c38-4be5-be01-c22aad2335e8)
+![Assignment 2 (Equation 3)](https://github.com/KanFudz/CSE_LABORATORY1/assets/157684612/e5e05c81-3e96-4f5c-bcb0-7c5a82eae5cf)

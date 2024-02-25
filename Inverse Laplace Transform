@@ -1,4 +1,4 @@
-% LABORATORY 1 CSE (Version 1)
+% LABORATORY 1 CSE (Format 1)
 %Legends: I=test 1, II=test 2, A/a=#1, B/b=#2, C/c=#3
 %% Assignment #1
 
@@ -22,7 +22,7 @@ IIc = ilaplace (IIC)
 pretty  (IIc)
 
 
-%% LABORATORY 1 CSE (Version 2)
+%% LABORATORY 1 CSE (Format 2)
 
 %% Solve for the Inverse Laplace Transform of the following:
 % Inverse Laplace 
@@ -43,7 +43,7 @@ pretty(F3)
 
 
 
-% LABORATORY 1 CSE (Version 1)
+% LABORATORY 1 CSE (Format 1)
 %Legends: I=test 1, II=test 2, A/a=#1, B/b=#2, C/c=#3
 %% Assignment 2
 
@@ -66,7 +66,7 @@ c= ilaplace (C)
 pretty (c)
 
 
-%% LABORATORY 1 CSE (Version 2)
+%% LABORATORY 1 CSE (Format 2)
 %% Assignment 2
 syms s
 

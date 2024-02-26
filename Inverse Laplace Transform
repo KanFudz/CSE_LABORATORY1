@@ -81,4 +81,4 @@ pretty(F2)
 f3 = (s^4+2*s^3+3*s^2+4*s+5)/(s*(s+1));
 F3 = ilaplace(f3);
 pretty(F3)
-eu
+

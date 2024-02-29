@@ -22,9 +22,6 @@ IIc = ilaplace (IIC)
 pretty  (IIc)
 
 
-
-% LABORATORY 1 CSE 
-%Legends: I=test 1, II=test 2, A/a=#1, B/b=#2, C/c=#3
 %% Assignment 2
 
 %%  #1
